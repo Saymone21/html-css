@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <form action="https://digicode.cleverapps.io/utilisateurs/create" method="post">
+        <input type="hidden" name="idCreateur" value="Simon B">
+        <li>
+            <label for="nom">Nom :</label>
+            <input type="text" name="nom">
+        </li>
+        <li>
+            <label for="prenom">Prénom :</label>
+            <input type="text" name="prenom">
+        </li>
+        <li>
+            <label for="dateNaissance">Date de naissance :</label>
+            <input type="date" name="dateNaissance">
+        </li>
+        <li>
+            <label for="lieuNaissance">Lieu de naissance</label>
+            <input type="text" name="lieuNaissance">
+        </li>
+        <li>
+        <label for="departementNaissance">Département de naissance :</label>
+        <select name="departementNaissance" id="departementNaissance">
+            <option value="Cote-dor">Côte-d'or</option>
+            <option value="Herault">Hérault</option>
+            <option value="Gard">Gard</option>
+            <option value="Aude">Aude</option>
+            <option value="Pyrenees-orientales">Pyrénées-Orientales</option>
+        </select></li>
+        <li>
+            <label for="">Adresse :</label>
+            <input type="number" name="numeroRue" placeholder="N° Rue">
+            <input type="text" name="libelleRue" placeholder="Libellé rue">
+            <input type="number" name="codePostal" placeholder="Code Postal">
+            <input type="text" name="ville" placeholder="Ville">
+        </li>
+        </ul>
+        <button type="submit">Valider</button>
+        <button type="reset">Effacer</button>
+        </form>
+</body>
+</html>
