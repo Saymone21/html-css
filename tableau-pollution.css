@@ -5,15 +5,16 @@ border: solid 1px;
 
 th {
     text-align: center;
+    border: solid 1px;
 }
 
-.pays {
+td.pays {
     width: 55%;
     text-align: left;
     border: solid 1px;;
 }
 
-.data {
+td.data {
     width: 15%;
     text-align: right;
     border: solid 1px;
