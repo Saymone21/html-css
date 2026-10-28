@@ -1,5 +1,5 @@
 h1 {
-    font-family: Helvetica ; Verdana; sans-serif;
+    font-family: Helvetica, Verdana, sans-serif;
     color: white ;
     background-color: blue;
     border-radius: 20px;
@@ -8,14 +8,14 @@ h1 {
 }
 
 table{
-    font-family: Helvetica ; Verdana; sans-serif;
+    font-family: Helvetica, Verdana, sans-serif;
     border: solid 1px;
     width: 100%;
     border-collapse: collapse;
 }
 
 thead {
-    font-family: Helvetica ; Verdana; sans-serif;
+    font-family: Helvetica, Verdana, sans-serif;
     color: white ;
     background-color: blue;
     border: solid 1px black;

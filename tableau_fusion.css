@@ -1,0 +1,16 @@
+table {
+    border: 1px solid;
+    width: 100%;
+}
+
+th {
+    border: 1px solid;
+}
+
+td {
+    border: 1px solid;
+}
+
+.jour {
+    font-weight: bold;
+}
