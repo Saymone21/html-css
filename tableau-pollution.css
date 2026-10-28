@@ -1,11 +1,19 @@
 table {
 width: 75%;
 border: solid 1px;
+border-radius: 10px;
 }
 
 th {
     text-align: center;
     border: solid 1px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+tr:nth-child(even) {
+background-color: rgb(221, 221, 221);
 }
 
 td.pays {
