@@ -31,6 +31,14 @@ li>a{
      text-decoration: none;
 }
 
+nav>ul>li:hover{
+    background-color: #009900;
+}   
+
+nav>ul>li>a:focus{
+    background-color: #009900;
+}
+
 footer>a{
     text-decoration: none;
 }
