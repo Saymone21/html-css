@@ -35,10 +35,12 @@ nav>ul>li:hover{
     background-color: #009900;
 }   
 
-nav>ul>li>a:focus{
+nav>ul>li:focus-within{
     background-color: #009900;
 }
 
 footer>a{
     text-decoration: none;
+    color: blue;
+    font-weight: bold;
 }
